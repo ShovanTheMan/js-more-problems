@@ -14,4 +14,4 @@ function totalCost(products){
     return sum;
 }
 const expense = totalCost(shoppingCart);
-console.log(expense);
+console.log('Total Expense: ',expense);

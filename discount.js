@@ -24,7 +24,7 @@ function ticketPrice(ticketQuantity){
     }
     else{
         const first100Price = 100 * first100Rate;
-        const second100Price = 100 * second100Rate;
+        const second100Price = 90 * second100Rate;
         const restTicketQuantity = ticketQuantity - 200;
         const restTicketPrice = restTicketQuantity * restTicketRate;
         const totalCost = first100Price + second100Price + restTicketPrice;
